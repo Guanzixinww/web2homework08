@@ -1,0 +1,61 @@
+var kind1 = document.getElementById("kind1");
+var kind2 = document.getElementById("kind2");
+var kind3 = document.getElementById("kind3");
+var kind4 = document.getElementById("kind4");
+
+kind1.onclick = function(){
+  var food1 = document.getElementById("food1");
+  var food2 = document.getElementById("food2");
+  var food3 = document.getElementById("food3");
+  var food4 = document.getElementById("food4");
+  food1.style.display = "block";
+  food2.style.display = "none";
+  food3.style.display = "none";
+  food4.style.display = "none";
+  kind1.style.background = "#D19275";
+  kind2.style.background = "#FFE4C4";
+  kind3.style.background = "#FFE4C4";
+  kind4.style.background = "#FFE4C4";
+}
+kind2.onclick = function(){
+  var food1 = document.getElementById("food1");
+  var food2 = document.getElementById("food2");
+  var food3 = document.getElementById("food3");
+  var food4 = document.getElementById("food4");
+  food1.style.display = "none";
+  food2.style.display = "block";
+  food3.style.display = "none";
+  food4.style.display = "none";
+  kind1.style.background = "#FFE4C4";
+  kind2.style.background = "#D19275";
+  kind3.style.background = "#FFE4C4";
+  kind4.style.background = "#FFE4C4";
+}
+kind3.onclick = function(){
+  var food1 = document.getElementById("food1");
+  var food2 = document.getElementById("food2");
+  var food3 = document.getElementById("food3");
+  var food4 = document.getElementById("food4");
+  food1.style.display = "none";
+  food2.style.display = "none";
+  food3.style.display = "block";
+  food4.style.display = "none";
+  kind1.style.background = "#FFE4C4";
+  kind2.style.background = "#FFE4C4";
+  kind3.style.background = "#D19275";
+  kind4.style.background = "#FFE4C4";
+}
+kind4.onclick = function(){
+  var food1 = document.getElementById("food1");
+  var food2 = document.getElementById("food2");
+  var food3 = document.getElementById("food3");
+  var food4 = document.getElementById("food4");
+  food1.style.display = "none";
+  food2.style.display = "none";
+  food3.style.display = "none";
+  food4.style.display = "block";
+  kind1.style.background = "#FFE4C4";
+  kind2.style.background = "#FFE4C4";
+  kind3.style.background = "#FFE4C4";
+  kind4.style.background = "#D19275";
+}
