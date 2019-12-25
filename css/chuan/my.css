@@ -1,0 +1,593 @@
+        #bod{
+            width:1200px;
+            margin:0 auto;
+            overflow: hidden;           
+        }
+       
+        *{
+         margin:0;
+         padding:0;
+         }
+         #big{
+            width: 900px;
+            height: 500px;
+            margin:0 auto;
+            margin-left: 140px;
+            position: relative;
+         }
+        .box{
+                width: 700px;
+                height: 500px;
+                margin:0 auto;
+                position: relative;
+                overflow: hidden;
+                float:left;
+        }
+        .slider{
+                width: 4900px;
+                height: 450px;
+                margin:0 auto;
+                position: relative;
+                left:-700px;
+                margin-top: 50px;
+                
+               
+        }
+        .slide{
+                width: 700px;
+                height: 450px;
+                margin:0 auto;
+                overflow: hidden;
+                position: relative;
+                float:left;
+        }
+        .slide img{
+            margin:0 auto;
+            width:700px;
+            height:450px;
+        }
+        .box>span{
+                display: block;
+                width:30px;
+                height: 50px;
+                text-align: center;
+                cursor:pointer;
+                color: #cccccc;
+                top:250px;
+                line-height: 50px;
+                background:rgb(255,0,0);
+                font-size: 30px;
+                position: absolute;
+                opacity: 0; 
+                border-radius: 50%;
+        }
+        #left{
+                left: 30px;
+        }
+        #right{
+                right: 30px;
+        }
+        .na{
+                position: absolute;
+                left: 270px;
+                bottom: 20px;
+        }
+        .na>li{
+                float: left;
+                width: 20px;
+                height: 20px;
+                background:#cccccc;
+                cursor: pointer;
+                margin: 0 10px;
+                border-radius: 30%;
+                text-align: center;  
+        }
+
+        
+
+        #box1{
+            width: 200px;
+            height: 450px;
+            background-color:lightyellow;
+            float:left;
+            margin-top: 50px;
+
+               
+        }
+        #box1 h1{
+            text-align: center;
+            margin-top: -3px;
+        }
+        #box1 p{
+            text-align: center;
+            font-size: 16px;
+            line-height: 2.5em; 
+        }
+
+        #body1{
+            width:1200px;
+            height:500px;
+            margin:0 auto;
+            margin-top: 100px;
+        }
+        #biao1{
+            width:1200px;
+            height:50px;
+            margin:0 auto;
+            text-align: center;            
+        }
+        #by1{
+            width:400px;
+            height:450px;
+            float: left;
+            background-image: url(../../images/chuan/su2.jpg);
+        }
+        #byy1{
+            width:400px;
+            height:60px;
+            float: left;
+            margin:0 auto;
+            padding-top: 40px;
+            text-align: center;
+            
+        }
+        #byyy1{
+            width:350px;
+            height:200px;
+            float: left;   
+            margin:0 auto;
+            margin-left: 25px;
+            text-indent:35px;
+            
+        }
+        #byyyy1{
+            width:360px;
+            height:140px;
+            float: left;   
+            margin:0 auto; 
+            margin-left: 20px;    
+        }
+        #byyyy1 img{
+            width:360px;
+            height:140px;
+        }
+
+        #by2{
+            width:400px;
+            height:450px;
+            float: left;
+            background-image: url(../../images/chuan/su2.jpg);
+        }
+        #byy2{
+            width:400px;
+            height:60px;
+            float: left;
+            margin:0 auto;
+            padding-top: 40px;
+            text-align: center;
+        }
+        #byyy2{
+            width:350px;
+            height:200px;
+            float: left;   
+            margin:0 auto;
+            margin-left: 25px;
+            text-indent:35px;
+            
+        }
+        #byyyy2{
+            width:360px;
+            height:140px;
+            float: left;   
+            margin:0 auto; 
+            margin-left: 20px;    
+        }
+        #byyyy2 img{
+            width:360px;
+            height:140px;
+        }
+
+        #by3{
+            width:400px;
+            height:450px;
+            float: left;
+            background-image: url(../../images/chuan/su2.jpg);
+        }
+        #byy3{
+            width:400px;
+            height:60px;
+            float: left;
+            margin:0 auto;
+            padding-top: 40px;
+            text-align: center;
+        }
+        #byyy3{
+            width:350px;
+            height:200px;
+            float: left;   
+            margin:0 auto;
+            margin-left: 25px;
+            text-indent:35px;
+            
+        }
+        #byyyy3{
+            width:360px;
+            height:140px;
+            float: left;   
+            margin:0 auto; 
+            margin-left: 20px;    
+        }
+        #byyyy3 img{
+            width:360px;
+            height:140px;
+        }
+
+
+        #body2{
+            width:1200px;
+            height:500px;
+            margin:0 auto;
+            margin-top: 100px;
+        }
+        #biao2{
+            width:1200px;
+            height:50px;
+            margin:0 auto;
+            text-align: center;          
+        }
+        #bx1{
+            width:250px;
+            height:450px;
+            float: left;
+            margin: 0 auto; 
+            background-color: rgba(240,128,128,0.3);
+        }
+        #bxc1{
+            width:250px;
+            height:40px;
+            float: left;
+            margin: 0 auto; 
+            padding-top: 10px;
+            text-align: center;
+        }
+        #bxcc{
+            width:250px;
+            height:350px;
+            margin: 0 auto;
+            float: left;
+            margin-top: 35px;
+        }
+        #bxc2{
+            width:250px;
+            height:400px;
+            float: left;
+            margin: 0 auto; 
+            background-image: url(../../images/chuan/shu3.jpg);          
+        }
+        #bxc2 p{
+            line-height: 1.5em; 
+            font-size: 22px;
+            text-align: center;
+        }
+
+        #bx2{
+            width:950px;
+            height:450px;
+            float: left;
+            margin: 0 auto; 
+            background-color: rgba(240,128,128,0.3);
+        }
+
+
+        .bxx1{
+            width:760px;
+            height:420px;
+            margin: 0 auto; 
+            float:left;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        .bxx1 img{
+            width:760px;
+            height:420px;
+            margin: 0 auto;
+        }
+
+        .bxx2{
+            width:130px;
+            float:left;
+            margin-top: 15px;
+            margin-left: 20px;
+            background-color: rgba(255,255,255,0.5);
+        }
+
+        .bxx2 img{
+            margin-left:20px;
+            height:420px;
+        }
+
+
+        #body3{
+            width:1200px;
+            height:500px;
+            margin:0 auto;
+            margin-top: 100px;
+        }
+        #biao3{
+            width:1200px;
+            height:50px;
+            margin:0 auto;
+            text-align: center;  
+
+        }
+        #bz{
+            width:1200px;
+            height:450px;
+            margin:0 auto;
+            background-color: lightyellow;
+        }
+
+        #bz ul{
+            float:left;
+            padding-left:16px;
+            border-radius: 10%;
+        }
+
+        #bz ul li{
+            width:280px;
+            height:200px;
+            margin: 0 auto; 
+            margin-left: 16px;
+            margin-top: 18px;
+            float:left;
+            background-color: lightgrey;
+            border-radius: 10%;
+            
+        }
+
+
+        #bz1{
+            width:280px;
+            height:200px;
+            margin: 0 auto; 
+            float:left;
+            background-color: lightgrey;
+            border-radius: 10%;
+           
+        }
+
+
+        #bz1 img{
+            width:280px;
+            height:200px;
+            margin: 0 auto;
+            border-radius: 10%;
+            cursor:pointer;
+        }
+
+        .pp1{
+            width:280px;
+            height:50px;           
+            color:#ffffff;
+            background-color: rgba(47,47,43,0.5);
+            margin-top:-50px ;
+            float: left;
+            border-radius: 10%;
+            cursor:pointer;  
+        }
+        .pp1 p{
+            width:280px;
+            height:50px;
+            text-align: center;
+            font-size: 30px;
+            color:white;
+            float: left;
+
+        }
+
+        .pp1:hover{
+            height:150px;
+            margin-top:-200px ;
+            color:lightpink;
+            font-size: 60px;
+            line-height: 2em;
+            text-align: center;
+            padding-top: 50px;
+
+        }
+
+        #body4{
+            width:1200px;
+            height:500px;
+            margin:0 auto;
+            margin-top: 90px;
+        }
+        
+        #biao4{
+            width:1200px;
+            height:50px;
+            margin:0 auto;
+            text-align: center;  
+        }
+        #op{
+            width:1200px;
+            height:450px;
+            margin:0 auto; 
+            background-color: rgba(240,128,128,0.3);
+        }
+
+        #bn1{
+            width:250px;
+            height:450px;
+            margin:0 auto;
+            float: left;
+            border-radius: 15%;
+            background-color: rgba(255,255,255,0.5);
+        }
+
+        #bn1 p{
+            margin-left: 17px;
+            margin-top: 3px;
+            width:230px;
+            font-size: 18px;
+            text-indent:35px;
+        }
+
+        #bn2{
+            width:950px;
+            height:450px;
+            margin:0 auto;
+            float: left;
+        }
+
+        #bnn1{
+            width:900px;
+            height:200px;
+            margin:0 auto;
+            float: left;
+            margin-left: 20px;
+            margin-top: 17px;
+        }
+        #chengdu{
+            width:400px;
+            height:200px;
+            margin:0 auto;
+            float: left;
+        }
+        #k{
+            width:300px;
+            height:200px;
+            float: left;
+
+        }
+        #k img{
+            width:300px;
+            height:200px;
+        }
+        
+        #k1{
+            width:100px;
+            height:200px;
+            float: left;
+            background-color: rgba(255,255,255,0.5);
+        }
+        #k1 p{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+        #chengdu1{
+            width:100px;
+            height:200px;
+            margin:0 auto;
+            float: left;
+        }
+        #chengdu1 img{
+            height:180px;
+            margin:0 auto;
+            margin-left:-380px;
+            margin-top: 10px;
+        }
+        #chengdu2{
+            width:400px;
+            height:200px;
+            float: left;
+        }
+        #y{
+            width:300px;
+            height:200px;
+            float: left;
+        }
+        #y img{
+            width:300px;
+            height:200px;
+        }
+        
+        #y1{
+            width:100px;
+            height:200px;
+            float: left;
+            background-color: rgba(255,255,255,0.5);
+        }
+        #y1 p{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+
+        #bnn2{
+            width:900px;
+            height:200px;
+            margin:0 auto;
+            float: left;
+            margin-left: 20px;
+            margin-top: 17px;
+        }
+
+        #leshan{
+            width:400px;
+            height:200px;
+            margin:0 auto;
+            float: left;
+        }
+        #w{
+            width:300px;
+            height:200px;
+            float: left;
+
+        }
+        #w img{
+            width:300px;
+            height:200px;
+        }
+        
+        #w1{
+            width:100px;
+            height:200px;
+            float: left;
+            background-color: rgba(255,255,255,0.5);
+        }
+        #w1 p{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+        #leshan1{
+            width:100px;
+            height:200px;
+            margin:0 auto;
+            float: left;
+
+        }
+        #leshan1 img{
+            height:180px;
+            margin:0 auto;
+            margin-left:-380px;
+            margin-top: 20px;
+        }
+        #leshan2{
+            width:400px;
+            height:200px;
+            float: left;
+        }
+        #q{
+            width:300px;
+            height:200px;
+            float: left;
+        }
+        #q img{
+            width:300px;
+            height:200px;
+        }
+        
+        #q1{
+            width:100px;
+            height:200px;
+            float: left;
+            background-color: rgba(255,255,255,0.5);
+        }
+        #q1 p{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+        }
