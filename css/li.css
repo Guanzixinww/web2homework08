@@ -1,0 +1,317 @@
+
+
+
+#lBody{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top:100px;
+}
+
+#ti{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#ti1{
+	width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	background-color: #FFECEC;
+
+}
+
+#chuanchuan{
+	margin-top: 15px;
+	width: 50px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	background-color: #FFBB77;
+}
+#chuanchuan h1{
+	margin-top: 70px;
+}
+
+#chuanchuan1{
+	margin-top: 15px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#chuanchuan11{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#chuanchuan11 img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#chuano{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+#chuanchuan2{
+	margin-top: 15px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#chuanchuan22{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#chuanchuan22 img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#chuant{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#yueyue{
+	margin-top: 15px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#yueyuey{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#yueyuey img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#yueo{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#yueyue1{
+	margin-top: 15px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#yueyue11{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#yueyue11 img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#yuet{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+#yueyue2{
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 50px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	background-color: #ff7575;
+}
+
+#yueyue2 h1{
+	margin-top: 70px;
+}
+
+#susu{
+	margin-top: 20px;
+	width: 50px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	background-color: #FFBB77;
+}
+#susu h1{
+	margin-top: 70px;
+}
+
+#susu1{
+	margin-top: 20px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#susu11{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#susu11 img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#suo{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#susu2{
+	margin-top: 20px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#susu22{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#susu22 img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#sut{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+#lulu{
+	margin-top: 20px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#luluy{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#luluy img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#luo{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#lulu1{
+	margin-top: 20px;
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#lulu11{
+	width: 260px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#lulu11 img{
+	width: 260px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#lut{
+	width: 260px;
+	height: 100px;
+	float: left;
+	margin-top: -200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#lulu2{
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 50px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	background-color: #ff7575;
+}
+#lulu2 h1{
+	margin-top: 70px;
+}
+

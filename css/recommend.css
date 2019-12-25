@@ -1,0 +1,104 @@
+#sBody{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+#recommend{
+	width: 90%;
+	height: 600px;
+	margin-left: 5%;
+}
+#recommend ul{
+	height: 50%;
+	width: 3%;
+}
+#recommend li{
+	font-size: 25px;
+	font-family: 'STKaiti';
+	font-weight: bolder;
+	height: 50%;
+	writing-mode:tb-rl;
+	text-align: center;
+	line-height: 25px;
+	border: 10px double #DC143C;
+	background-color: #FFE4C4;
+}
+#tody{
+	font-size: 60px;
+	font-family: 'FZShuTi';
+	font-weight: 30px;
+	float: left;
+	margin-left: 5%;
+}
+#todyf{
+	width: 100%;
+	height: 90%;
+	float: left;
+	margin-top: 10px;
+}
+#rec-left{
+	float: left;
+	margin-left: 5px;
+	margin-top: 10%;
+}
+#rec-right{
+	float: right;
+	margin-right: 18px;
+	margin-top: 10%;
+}
+.food{
+	width: 90%;
+	height: 100%;
+	float: left;
+	margin-left: 1%;
+	background-color: #D19275;
+	border: 3px ridge #DC143C;
+	text-align: center;
+}
+.food img{
+	float: left;
+	margin-top: 4%;
+	margin-left: 2%;
+}
+#food1{
+	display: block;
+	margin-bottom:200px;
+}
+#food2{
+	display: none;
+}
+#food3{
+	display: none;
+}
+#food4{
+	display: none;
+}
+.fo-right{
+	width: 50%;
+	height: 80%;
+	float: right;
+	margin-top: 5%;
+}
+.fo-right p{
+	float: left;
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 80%;
+	height: 70%;
+	font-size: 25px;
+	font-family: '宋体';
+	font-weight: bolder;
+	line-height: 50px;
+}
+.fo-name{
+	font-size: 38px;
+	font-family: '楷体';
+	font-weight: bolder;
+}
+.kinds{
+	font-size: 25px;
+	font-family: '黑体';
+	font-weight: bolder;
+	float: left;
+	margin-top: 50px;
+}
