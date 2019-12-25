@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 1270px;
+	height: 500px;
+	margin:0px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 6920px;
+	margin-top:100px; 
+	position: absolute;
+	left: -820px;
+}
+.slide{
+	width:960px;	
+	float: left;
+}
+.paint{
+	width: 320px;
+	float: left;	
+}
+.paint img{
+	width: 320px;
+	height: 330px;
+}
+.box>span{
+	cursor: pointer;
+	color:   ;
+	top: 220px;
+	font-size: 80px;
+	font-weight: bolder;
+	position: absolute;
+	opacity: 0.3;
+}
+#left{
+	left: 150px;
+}
+#right{
+	right: 190px;
+}
+#blank_left{
+	position: relative;
+	float: left;
+	top: 100px;
+	width: 140px;
+	height:330px;
+	background-color: white;
+	opacity: 0.8;
+}
+#blank_right{
+	position: relative;
+	float: right;
+	top: 100px;
+	width: 171px;
+	height:330px;
+	background-color: white;
+	opacity: 0.8;
+}
+#blank_bottom{
+	position: relative;
+	top: 430px;
+	width: 1270px;
+	height: 80px; 
+	background-color: white;
+	opacity: 0.8;
+
+}
+
+.center{
+    width: 1000px;
+    height: 1100px;
+    background-color: white;
+    margin: 50px auto;
+}
+.center p{
+	text-align: center;
+	font-size: 30px;
+}
+.one{
+	height: 300px;
+	margin-top:10px;
+	border-top:  2px ridge #9BDF70; 
+ 
+}
+#on{
+	width: 245px;
+	height: 300px;
+	float: left;
+}
+#on img{
+	width: 180px;
+	height: 190px;
+	margin: 30px;
+}
+.detail{
+	width: 180px;
+	height: 50px;
+	margin-top:-34px;
+	margin-left: 30px; 
+}
+.detail p{
+	text-align: center;
+	font-size: 16px; 
+	line-height: 29px;
+}
+#on:hover .detail{
+	width: 180px;
+	height: 220px;
+	background-color:white;
+	opacity: 0.8;
+	margin-top: -225px;
+
+}
+.detail:hover p{
+	font-size: 23px;
+	color: red;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+#main{
+	width: 1200px;
+	height:600px;
+	margin: 90px auto;
+	background-color:rgba(240,128,128,0.3);
+}
+#smallpic{
+	width: 1198px;
+	height: 220px;	
+	padding: 3px;
+}
+#smallpic img{
+	margin:8px;
+	width: 150px;
+	height: 180px;	
+}
+#smallpic img:hover{
+	cursor:pointer;
+}
+.smallpic_one{
+	width: 165px;
+	float: left;
+	margin-left: 3px;
+}
+.smallpic_one p{
+	text-align: center;
+}
+.pb{
+	border:3px solid white;
+}
+#bigpic{
+	width: 350px;
+	height: 360px;
+	margin-left:450px;
+}
+
+.bottom{
+	width: 1100px;
+	height:1200px;
+	margin:60px auto;
+}
+.bottom p{
+	text-align: center;
+	font-size: 16px; 
+}
+.last{
+	width: 1100px;
+	height:1000px;
+	margin:50px auto;
+}
+.card{
+	width: 660px;
+	height: 240px;
+	margin-left: 70px ;	
+	margin-bottom: 20px ;	
+	background-image: url("../../images/health/back1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding:20px;
+	float: left;
+}
+.white{
+	background-color:rgba(255,255,255,0.9);
+	width: 575px;
+	height: 245px;
+}
+.last img{
+	height:170px;
+	width:160px; 
+	border:3px white solid;
+	border-radius:50px ;
+	margin-top: 50px;
+	float:left;
+}
+.last_one{
+	height:280px;
+	width:1000px;
+	float: left;
+}
+.last_two{
+	height:280px;
+	width:1000px; 
+	margin:50px 170px;
+	float: left;
+}
+.last_three{
+	height:280px;
+	width:1000px; 
+	margin-top: 30px;
+	float: left;
+}
+#container,#container1,#container2 {
+	height:250px;
+	width:630px; 
+	margin-top: -250px;
+	margin-left: -20px;
+	overflow: hidden;
+}
+.last p{
+	margin-top: 100px;
+	font-size: 30px;
+	color: green;
+}
+#p2,#p4,#p6{
+	margin:15px  80px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: solid;
+	color: white;
+}
+.title p{
+	width: 400px;
+    margin-top: 150px;
+    margin-left: 430px; 
+    font-size: 40px;
+    text-align: center;
+    font-family: YouYuan;
+}
+.title02{
+	width: 340px;
+	height:32px;	
+	overflow: hidden;
+	float: right;
+}
+.title03{
+	width: 280px;
+	float: right;
+	position: relative;
+	right: -100px;
+}
+.title03 p{
+	font-size: 22px;
+	color: red;
+	opacity: 0.9;
+
+}
+.title00{
+	width: 490px;
+	margin-left: 1550px;
+	margin: 20px auto;
+}
+.title00 img{
+	width: 20px;
+	height: 20px;
+	float: right;
+	position: relative;
+	right: 360px;
+	top: 6px;
+}
