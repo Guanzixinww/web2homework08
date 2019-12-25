@@ -1,0 +1,177 @@
+#box1{
+    height:300px ; 
+    width:900px ;
+    margin:0 auto;
+    left:30px ;
+    border-top:40px solid transparent; 
+}
+
+.tab_nav{
+    overflow:hidden; 
+    cursor: hand;
+}
+
+.tab_nav li{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-top-left-radius:10px ;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgb(241, 96, 96);
+    background-color:rgb(241, 96, 96); 
+}
+
+.tab_nav .on{
+    color: white;
+    background-color:rgb(202, 10, 10); 
+    border: 1px solid rgb(202, 10, 10); 
+}
+
+.tab_con div{
+    display: none;
+    background-color:white; 
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+
+.tab_con .selected{
+    display: block;
+    width: 650px;
+    height: 200px;
+    padding: 30px;
+    line-height: 40px;
+    color: white;
+    background-color:rgb(202, 10, 10); 
+    border: 1px solid rgb(202, 10, 10); 
+}
+
+.pic{
+    border-radius: 50%;
+    margin-left:180px ;
+    margin-top:-160px ;
+    height:200px ;
+    width:200px ; 
+}
+
+.pic1{
+    border-radius: 50%;
+    margin-left:20px ; 
+    margin-top:-340px ;
+    height:200px ;
+    width:200px ; 
+}
+
+.words{
+    margin:0 auto;
+    text-align:center;
+    line-height:100px;
+}
+
+.words a:hover{
+    color:rgb(202, 10, 10); 
+}
+
+.word{
+    margin:0 auto;
+    text-align:center;
+    line-height:20px;
+}
+.container_box{
+    height:480px ; 
+    width:1200px ;
+    margin-top:100px ;
+    margin:0 auto ; 
+}
+
+.container_nav {
+    margin:0 auto ;
+    width:1200px ;
+    height: 40px;
+    text-align:center;
+    line-height: 40px;
+    font-size:20px;
+}
+
+.container_nav li {
+    margin-top: 23px ;
+    width:250px ; 
+    height:200px ; 
+    display: inline-block; 
+    border-radius:20px ;
+    transition: all 1s;
+    box-shadow:5px 5px 10px rgb(243, 243, 215);
+}
+
+.container_box li:hover{
+    transform: scale(1.6 , 1.6);
+    box-shadow:5px 5px 10px rgb(243, 243, 215);
+}
+
+.container_box li a:hover{
+    color:rgb(247, 247, 173); 
+}
+
+.hide{
+    position: absolute;
+    display: none;
+    bottom: 0;
+    width: 100%;
+    height:100px;
+    display: none;
+    color: #fff;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    background-color: rgba(0,0,0,0.35) ;
+    line-height: 20px;
+    font-size:12px;
+}
+
+.hide a{
+    color:white;
+}
+
+.container_box li:hover .hide{
+    display: block;
+}
+
+.bfloat {
+    height: 250px;
+    width: 180px;
+    margin-left: 750px;
+    overflow: hidden;
+    background-color:rgb(216, 10, 10);
+    border-bottom-left-radius:20px ;  
+}
+
+.bfloat a{
+    margin-left:10px ;
+    color:white; 
+    font-size:14px ; 
+    line-height:17px ;
+}
+
+.bfloat a:hover{
+    color:rgb(247, 247, 173); 
+}
+
+.bfloatName {
+    margin-left:750px ; 
+    margin-top:-280px ;
+    width: 180px;
+    font-size: 18px;
+    color: white;
+    background-color:rgb(203, 10, 10); 
+    border-top-right-radius:20px ;  
+}
+
+.bfloatName img{
+    height:20px;  
+    width:20px; 
+}
+
+#baniner1 {
+    width: 230px;
+    height: 331px;
+}
