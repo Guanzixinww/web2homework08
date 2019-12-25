@@ -1,0 +1,45 @@
+.btnStyle { 
+	position: fixed;
+	margin:0 auto ;
+    margin-left:10px ; 
+    bottom: 10px ;
+	width: 45px; 
+	height: 45px;
+	border-width: 0px;
+	border-radius: 3px;
+	cursor: pointer;
+	outline: none; 
+	color: rgba(131, 32, 32, 0.986); 
+    font-size: 14px; 
+	border-radius: 50%;
+	background: linear-gradient(to bottom, white,rgb(250, 240, 240));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.btnStyle:hover { 
+	background:linear-gradient(to bottom,rgb(250, 240, 240) ,rgb(250,245, 245));
+}
+
+.myBtn {
+	display: none;
+	position: fixed;
+	margin:0 auto;
+	bottom:65px;
+	padding:5px;
+	margin-left:10px;
+	height:120px;
+	width:40px;
+	color: rgba(131, 32, 32, 0.986); 
+	font-size:14px;
+	border: none;
+	outline: none;
+	background: linear-gradient(to bottom, white,rgb(250, 240, 240));
+	line-height:24px;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+.myBtn:hover {
+	background:linear-gradient(to bottom,rgb(250, 240, 240) ,rgb(250,245, 245));
+}
