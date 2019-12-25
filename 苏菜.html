@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>苏菜</title>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <style>
+        *{
+            margin:0;
+        }
+        a{
+            text-decoration:none;
+        }
+        a:link{
+            color:white;
+        }
+        li{
+            list-style-type:none;
+        }
+        body{
+            align-content:center;
+        }
+        #body{
+            margin:0 auto;
+            height:3000px;
+            overflow:hidden;
+        }
+        #left>ul{
+            width:100px;
+            height:400px;
+            position:fixed;
+            top:150px;
+            left:0px;
+            display:inline-block;
+        }
+        .innerbody{
+            background-repeat:no-repeat;
+            height:700px;
+            background-size:cover;
+        }
+        #title{
+            font-size:70px;
+            color:white;
+            display:inline-block;
+            position:relative;
+            top:350px;
+            left:100px;
+            font-weight:bold;
+        }
+        .in{
+            margin:0 auto;
+            width:1200px;
+            height:700px;
+            overflow:hidden;
+            border-bottom:2px solid white;
+        }
+        #in1p1{
+            width:450px;
+            color:white;
+            position:relative;
+            top:380px;
+            left:30px;
+            font-size:20px;
+            font-weight:bold;
+        }
+        .nav>ul>li>a{
+            color:black;
+        }
+        #title2{
+            color:#639c17;
+            font-size:70px;
+            position:relative;
+            top:150px;
+            left:900px;
+        }
+        #in2p1{
+            color:#639c17;
+            font-size:20px;
+            position:relative;
+            top:270px;
+            left:910px;
+            line-height:35px;
+        }
+        #in2p2{
+            color:#639c17;
+            font-size:20px;
+            position:relative;
+            top:300px;
+            left:800px;
+            line-height:35px;
+        }
+        #box{
+        	width:600px;
+        	height:350px;
+        	position:relative;
+        	top:50px;
+        	left:500px;
+        	overflow:hidden;
+        }
+        .slider{
+			width:7210px;
+			position:absolute;
+			left:-600px;
+			margin:0;
+			overflow:hidden;
+        }
+        .slide{
+        	margin-right:-5px;
+        	width:600px;
+        	display:inline-block;
+        	overflow:hidden;
+        }
+        .slide>img{
+        	width:600px;
+        	height:350px;
+        	overflow:hidden;
+        }
+		#box>span{
+			display:block;
+			width:30px;
+			height:50px;
+			cursor:pointer;
+			text-align:center;
+			top:175px;
+			line-height:50px;
+			background-color:white;
+			font-size:30px;
+			position:absolute;
+			opacity:0;
+			overflow:hidden;
+		}
+		#leftt{
+			left:30px;
+			color:red;
+			opacity:0;
+		}
+		#rightt{
+			right:30px;
+			color:red;
+			opacity:0;
+		}
+		.navv{
+			position:absolute;
+			left:500px;
+			bottom:20px;
+			overflow:hidden;
+		}
+		.navv>li{
+			width:20px;
+			height:20px;
+			float:left;
+			background-color:#ccc;
+			cursor:pointer;
+			margin:0 10px;
+			border-radius:50%;
+			color:red;
+			text-align:center;
+			font-size:0.8em;
+			line-height:20px;
+			overflow:hidden;
+		}
+		.navv .active{
+			background-color:red;
+			color:white;
+		}
+		#in3title1{
+			display:inline-block;
+			position:relative;
+			left:10px;
+			top:-280px;
+			width:300px;
+			height:150px;
+		}
+		#in3title1>img{
+			width:500px;
+			height:500px;
+			position:relative;
+			left:-50px;
+			top:-635px;
+			display:inline;
+		}
+		#in3title2{
+			display:inline-block;
+			position:relative;
+			left:-100px;
+			top:-300px;
+			width:400px;
+			height:400px;
+		}
+		#in3title2>img{
+			width:800px;
+			height:800px;
+			display:inline;
+			position:relative;
+			top:-250px;
+			left:-200px;
+			z-index:10;
+		}
+		.introduction{
+			display:inline-block;
+			opacity:0.5;
+			background-color:white;
+			color:black;
+			width:900px;
+			height:240px;
+			position:relative;
+			top:105px;
+			left:150px;
+			height:200px;
+			z-index:100;
+		}
+		.intros{
+			opacity:1;
+			display:inline-block;
+			color:black;
+			font-size:22px;
+			font-weight:bold;
+		}
+		.in4d{
+			display:inline-block;
+			width:250px;
+			height:150px;
+			background-size:cover;
+			float:left;
+			margin-left:20px;
+			margin-top:50px;
+		}
+		.in4p{
+			display:inline-block;
+			background-color:black;
+			opacity:0.6;
+			color:white;
+			width:250px;
+			height:35px;
+			position:relative;
+			top:115px;
+			text-align:center;
+			line-height:35px;
+		}
+		.in4d:hover .in4p{
+			height:150px;
+			position:relative;
+			top:0px;
+			font-size:0.8em;
+			line-height:1.5em;
+			text-align:left;
+		}
+		.leftLi{
+			margin:0 auto;
+            float:left;
+            width:70px;
+            height:70px;
+            border:2px blue solid;
+            display:inline-block;
+            position:relative;
+            left:-40px;
+		}
+		.lactive{
+			width:200px;
+			background-color:red;
+		}
+        </style>
+</head>
+
+<body style="height:3000px;" id="scroll">
+    <div id="top" class="top">
+        <div class="top01">
+            <div id="topText">
+                <marquee>欢迎来到网站“舌尖上的菜系”! 在这里您可以了解到中国四大主菜系：川菜、粤菜、苏菜和鲁菜。希望可以对您有帮助！</marquee>
+            </div>
+        	<img src="images/标题.png" alt="请等待" id="img1" height="70px" style="margin-left:100px">
+			<input type="text" class="text" value="请输入菜谱/食材/菜单/作者" >
+			<input type="submit" class="submit" value="搜 索">
+        </div>
+        <div class="top02">
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a class="on" href="demoMain.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">川菜</a>
+                    </li>
+                    <li>
+                        <a href="粤菜.html">粤菜</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">苏菜</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">鲁菜</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">健康菜单</a>
+                    </li>
+                    <li>
+                        <a href="demoMenu.html">食谱</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="btn1">
+        <button class="btnStyle">雪花</button>
+    </div>
+    <div id="btn2">
+        <button class="btnStyle" style="margin-left:60px">emoji</button>
+    </div>
+    <div id="btn3">
+        <button class="btnStyle" style="margin-left:110px">money</button>
+    </div>
+    <div id="rightright">
+    	<ul>
+    		<li><a href="#"><img src="images/QQ.png" id="img11"/></a></li>
+    		<li><a href="#"><img src="images/ZX.png" id="img22"></a></li>
+    		<li><a href="#"><img src="images/WX.png" id="img33"/></a></li>
+    		<li><a href="#"><img src="images/LX.png" id="img44" /></a></li>
+    		<li><a href="#"><img src="images/YY.png" id="img55" /></a></li>
+    	</ul>
+    </div>
+    <div class="innerbody" style="background-image:url(images/su/3.jpg);">
+        <div class="in">
+            <p id="title">苏菜</p>
+            <p id="in1p1">江苏菜，中国传统八大菜系之一，简称苏菜。<br/>由于苏菜和浙菜相近，因此和浙菜统称江浙菜系。主要以南京菜（旧称金陵菜）、淮扬菜、苏锡菜、徐海菜等地方菜组成。江苏菜起源于二千多年前，其中南京菜起源于先秦时期，当时吴人善制炙鱼、蒸鱼和鱼片，一千多年前，鸭已为南京美食。南宋时，苏菜和浙菜同为“南食”的两大台柱。
+            </p>
+        </div>
+    </div>
+    <div class="innerbody" style="background-image:url(images/su/5.png);">
+		<div class="in">
+            <p id="title2">苏菜特点</p>
+            <p id="in2p1">苏菜擅长炖、焖、蒸、炒，<br/>重视调汤，保持菜的原汁，<br/>风味清鲜，浓而不腻，<br/>淡而不薄，酥松脱骨而不失其形，<br/>滑嫩爽脆而不失其味。<br/>
+            </p>
+            <p id="in2p2">南京菜口味和醇，玲珑细巧；<br/>扬州菜清淡适口，刀工精细；<br/>苏州菜口味趋甜，清雅多姿。</p>
+		</div>
+    </div>
+    <div class="innerbody">
+    	<div class="in">
+    		<div id="box">
+    			<div class="slider" id="slider">
+    				<div class="slide"><img src="images/su/16.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/7.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/8.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/9.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/10.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/11.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/12.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/13.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/14.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/15.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/16.jpg" alt="没加载出来吖"></div>
+					<div class="slide"><img src="images/su/7.jpg" alt="没加载出来吖"></div>
+				</div>
+				<span id="leftt"> < </span>
+				<span id="rightt"> > </span>
+				<ul class="navv" id="navv">
+					<li class="active">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+				</ul>
+    		</div>
+    		<div class="introduction"><p class="intros">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;江苏为鱼米之乡，物产丰饶，饮食资源十分丰富。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;著名的水产品有长江三鲜（鲟鱼、刀鱼、鲴鱼）、太湖银鱼、阳澄湖清水大闸蟹、南京龙池鲫鱼以及其它众多的海鲜品。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优良佳蔬有太湖莼菜、淮安蒲菜、宝应藕、板栗、鸡头米、茭白、冬笋、荸荠等。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名特产品有南京湖熟鸭、南通狼山鸡、扬州鹅、高邮麻鸭、南京香肚、如皋火腿、靖江肉脯、无锡油面筋等。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而其中最为突出的十大名菜你知道是什么吗？</p></div>
+    		<div id="in3title1">
+    			<img src="images/su/19.png"/>
+    		</div>
+    		<div id="in3title2">
+    			<img src="images/su/20.png"/>
+    		</div>
+    	</div>
+    </div>
+    <div class="innerbody">
+    	<div class="in">
+    		<div class="in4d" style="background-image:url(images/su/20.png);position:relative;top:30px;left:40px;background-position:-100px -140px ;background-size:200%">
+			</div>
+    		<div class="in4d" style="background-image:url(images/su/33.png);position:relative;top:30px;left:40px;background-position:-90px;background-size:170%">
+			</div>
+    		<div class="in4d" style="background-image:url(images/su/21.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">松鼠鳜鱼</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/22.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">盐水鸭</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/23.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">叫花鸡</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/24.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">狮子头</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/25.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">大煮干丝</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/26.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">霸王别姬</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/27.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">鲃肺汤</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/28.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">将军过桥</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/29.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">双皮刀鱼</p>
+			</div>
+			<div class="in4d" style="background-image:url(images/su/30.png);position:relative;top:30px;left:40px;">
+				<p class="in4p">清蒸鲥鱼</p>
+			</div>
+    	</div>	
+    </div>
+    <div id="di">
+        <div id="didi">
+            首页&nbsp;&nbsp; | &nbsp;&nbsp;美食代理&nbsp;&nbsp; | &nbsp;&nbsp;
+            财务代记账&nbsp;&nbsp; | &nbsp;&nbsp;股权交易与变更&nbsp;&nbsp; |
+            &nbsp;&nbsp;餐厅贷款&nbsp;&nbsp; | &nbsp;&nbsp;中小餐厅租赁&nbsp;&nbsp;
+            | &nbsp;&nbsp;餐厅管理代理&nbsp;&nbsp; | &nbsp;&nbsp;法律服务   <br>
+            © 2019-2020 舌尖上的菜系 版权所有
+        </div>
+    </div>
+</body>
+<script src="js/snow.js">
+</script>
+<script src="js/emoji.js">
+</script>
+<script src="js/money.js">
+</script>
+<script src="js/su/animate.js">
+</script>
+<script src="js/bottom.js">
+</script>
+<script>
+	var box = document.getElementById("box");
+	var slider = document.getElementById("slider");
+	var slideList = document.getElementsByClassName("slide");
+	var leftt = document.getElementById("leftt");
+	var rightt = document.getElementById("rightt");
+	var navv = document.getElementById("navv");
+	var navList = navv.children;
+	var index =1;
+	var judge = 0;
+	var in4pList = document.getElementsByClassName("in4p");
+
+	box.onmouseout = function(){
+		animate(leftt,{opacity:50});
+		animate(rightt,{opacity:50});
+		timer = setInterval(next,3000);
+	}
+	box.onmouseover = function(){
+		animate(leftt,{opacity:0});
+		animate(rightt,{opacity:0});
+		clearInterval(timer);
+	}
+	rightt.onclick = next;
+	leftt.onclick = prev;
+	for(var i=0;i<navList.length;i++){
+		navList[i].index = i;
+		navList[i].onclick = function(){
+			index = this.index +1;
+			navmove();
+			animate(slider,{left:-600*index});
+		}
+	}
+	function next(){
+		if(judge==1){
+			return 0;
+		}
+		judge = 1;
+		index +=1;
+		navmove();
+		animate(slider,{left:-600*index},function(){
+			if(index == 11){
+				slider.style.left = '-600px';
+				index = 1;
+			}
+			judge = 0;
+		});
+	}
+	function prev(){
+		if(judge == 1){
+			return 0;
+		}
+		judge = 1;
+		index -=1;
+		navmove();
+		animate(slider,{left:-600*index},function(){
+			if(index == 0){
+				slider.style.left ='-6000px';
+				index = 10;
+			}
+			judge = 0;
+		});
+	}
+	function navmove(){
+		for(var i=0;i<navList.length;i++){
+			navList[i].className="";
+		}
+		if(index > 10){
+			navList[0].className = "active";
+		}
+		else if(index <=0){
+			navList[9].className = "active";
+		}
+		else{
+			navList[index-1].className = "active";
+		}
+	}
+	timer = setInterval(next,3000);
+
+	for(var i=0;i<in4pList.length;i++){
+		in4pList[i].onmouseover = function(){
+			if(this.innerHTML == "松鼠鳜鱼"){
+				this.innerHTML ="&nbsp;&nbsp;&nbsp;&nbsp;“松鼠鳜鱼”是苏州地区的传统名菜，在江南各地一直将其列作宴席上的上品佳肴。用鳜鱼制菜各地早有，一般以清蒸或红烧为主，而制做形似松鼠的鳜鱼菜肴则首先是苏州地区。相传清代乾隆皇帝下江南时，曾微服至苏州松鹤楼菜馆用膳，乾隆皇帝吃后很满意。后来苏州官府传出乾隆在松鹤楼吃鱼的事，此菜便名扬苏州。";
+				this.onmouseout = function(){
+					this.innerHTML = "松鼠鳜鱼";
+				}
+			}
+			if(this.innerHTML == "盐水鸭"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;盐水鸭四季皆有，但以秋季桂花开时最肥美，此时新鸭上市皮白肉细，鲜嫩异常、品质极优，俗称桂花鸭。盐水鸭选料讲究，程序严格，要经盐腌、复卤、吊坯、汤锅等工序。有口诀：“热盐擦、清卤复、吹得干、焐得透，皮白肉嫩香味足。”";
+				this.onmouseout = function(){
+					this.innerHTML = "盐水鸭";
+				}
+			}
+			if(this.innerHTML == "叫花鸡"){
+				this.innerHTML = "　&nbsp;&nbsp;&nbsp;&nbsp;叫花鸡，又称常熟叫化鸡、煨鸡，是江苏常熟地区传统名菜。是把加工好的鸡用泥土和荷叶包。制作材料有新鲜嫩荷叶、黄泥、活土鸡等。叫化鸡的制法与周代“八珍”之一的“炮豚”相似，“炮豚”就是用粘土把乳猪包裹起，加以烧烤，然后再进一步加工而成的菜。其色泽枣红明亮，芳香扑鼻，板酥肉嫩，入口酥烂...";
+				this.onmouseout = function(){
+					this.innerHTML = "叫花鸡";
+				}
+			}
+			if(this.innerHTML == "狮子头"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;狮子头是江苏扬州地区特色传统名菜，属于淮扬菜系。口感松软，肥而不腻，营养丰富。红烧，清蒸，脍炙人口。主要是蟹肉和用猪肉斩成细末做成的肉丸，俗称“斩肉”。斩肉的做法很多，有清炖，有水氽的，有先油煎后红烧的，有用糯米滚蒸的。所谓狮子头则是菜肴造型——大而圆，夸张比方为狮子头。";
+				this.onmouseout = function(){
+					this.innerHTML = "狮子头";
+				}
+			}
+			if(this.innerHTML == "大煮干丝"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;大煮干丝又称鸡汁煮干丝，传统名菜，属淮扬菜系。大煮干丝是一道既清爽，又有营养的佳肴，其风味之美，历来被推为席上美馔，淮扬菜系中的看家菜。原料主要为淮扬方干，刀工要求极为精细，多种佐料的鲜香味经过烹调，复合到豆腐干丝里，吃起来爽口开胃，异常珍美，百食不厌。";
+				this.onmouseout = function(){
+					this.innerHTML = "大煮干丝";
+				}
+			}
+			if(this.innerHTML == "霸王别姬"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;霸王别姬，一道汉族经典的传统名菜，湘菜和苏菜中都有收录;此菜是徐州人民为纪念在推翻暴秦统治中立下了汗马功劳的楚国英雄项羽，并怀念那位心系国运、大义凛然的绝代佳人虞姬，创制了霸王别姬这道名菜，流传至今。解放后，毛泽东、刘少奇、陈毅等党和国家领导同志来徐州视察工作，都品尝过这道名菜，并给予赞扬.";
+				this.onmouseout = function(){
+					this.innerHTML = "霸王别姬";
+				}
+			}
+			if(this.innerHTML == "鲃肺汤"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;鲃肺汤是江苏地区传统名菜，属于苏菜系，鲃肺汤鱼肝肥嫩，浮于汤面，鱼肉细腻，汤清味美，是夏秋季节的时菜。美食主要材料为活鲃鱼500克，熟火腿片、熟猪油各15克，水发香菇片、熟春笋片各10克，豌豆苗5克，绍酒25克，精盐7 克，味精、白胡椒粉各二克，葱末5克，鸡清汤750克。";
+				this.onmouseout = function(){
+					this.innerHTML = "鲃肺汤";
+				}
+			}
+			if(this.innerHTML == "将军过桥"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;“将军过桥”即黑鱼两吃，因黑鱼性烈，是凶猛鱼类，群鱼见之都“退避三舍”，故冠以“将军”。“过桥”则是说：清朝扬州，将下好的面条从锅里挑入放有鲜汤的碗中，称之为“过桥”。该菜选用重0.75千克左右的鲜黑鱼，鱼肉制成炒鱼片，鱼骨、鱼肠等制汤。一鱼两吃，有菜有汤，鱼片鲜嫩可口，鱼汤浓白如乳，是扬州传统名菜。";
+				this.onmouseout = function(){
+					this.innerHTML = "将军过桥";
+				}
+			}
+			if(this.innerHTML == "双皮刀鱼"){
+				this.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;双皮刀鱼是一道典型的淮扬菜，它无骨无刺，肉质极为细嫩，其味鲜美，同时具有预防高血压、心肌梗死等心血管疾病、养肝补血、泽肤养发健美的功效。清代词人林兰痴在《刊上三百吟》中云：“皮里蜂芒肉里匀，精工搜剔在全身“。指的就是加工双皮刀鱼的过程，故此菜亦称为“摸刺刀鱼”，与松鼠鳜鱼、清蒸鲥鱼并称江南三味。";
+				this.onmouseout = function(){
+					this.innerHTML = "双皮刀鱼";
+				}
+			}
+			if(this.innerHTML == "清蒸鲥鱼"){
+				this.innerHTML = "　&nbsp;&nbsp;&nbsp;&nbsp;清蒸鲥鱼，鱼身银白，肥嫩鲜美，爽口而不腻。食时，若再蘸以镇江香醋和姜末，更是别有风味。此菜为江南三味之一。鲥鱼的脂肪含量很高，它富含不饱和脂肪酸，具有降低胆固醇的作用，对防止血管硬化、高血压和冠心病等大有益处。鲥鱼肉味甘、性平，有强壮滋补、温中益气、暖中补虚、开胃醒脾、清热解毒的功效。";
+				this.onmouseout = function(){
+					this.innerHTML = "清蒸鲥鱼";
+				}
+			}
+		}
+	}
+</script>
+</html>
