@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>舌尖上的美食</title>
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/recommend.css">
+    <link rel="stylesheet" href="css/li.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <style>
+        #sBody{
+            width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+        }
+        #gBody1{
+            height:700px;
+            margin:0;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-image:url(images/su/40.jpg);
+            background-size:102%;
+            overflow:hidden;
+        }
+        #gBody2{
+            width:1200px;
+            height:700px;
+            margin:0 auto;
+        }
+        #gimg1{
+            height:350px;
+            display:inline;  
+            margin-top:700px;          
+        }
+        #gimg2{
+            height:350px;
+            display:inline;
+            margin-left:310px;
+            margin-top:250px;
+        }
+        #gdiv1{
+            display:inline-block;
+        }
+        #gdiv2{
+            margin-top:-300px;
+        }
+        #gp1{
+            height:400px;
+            color:black;
+            font-size:1.3em;
+            margin-top:-570px;
+            margin-left:400px;
+            font-weight:bold;
+        }
+        #gp2{
+            width:400px;
+            font-size:1.3em;
+            font-weight:bold;
+            margin-top:-150px;
+            margin-left:800px;
+        }
+        #gp3{
+            font-size:1.3em;
+            font-weight:bold;
+            margin-top:109px;
+            margin-left:650px;
+            color:#edf0f5;
+        }
+    </style>
+</head>
+
+<body id="scroll" style="height:2000px;">
+    <div id="top" class="top">
+        <div class="top01">
+            <div id="topText">
+                <marquee>欢迎来到网站“舌尖上的菜系”! 在这里您可以了解到中国四大主菜系：川菜、粤菜、苏菜和鲁菜。希望可以对您有帮助！</marquee>
+            </div>
+        	<img src="images/标题.png" alt="请等待" id="img1" height="70px" style="margin-left:100px">
+			<input type="text" class="text" value="请输入菜谱/食材/菜单/作者" >
+			<input type="submit" class="submit" value="搜 索">
+        </div>
+        <div class="top02">
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a class="on" href="demoMain.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">川菜</a>
+                    </li>
+                    <li>
+                        <a href="粤菜.html">粤菜</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">苏菜</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">鲁菜</a>
+                    </li>
+                    <li>
+                        <a href="demo1.html">健康菜单</a>
+                    </li>
+                    <li>
+                        <a href="demoMenu.html">食谱</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="btn1">
+        <button class="btnStyle">雪花</button>
+    </div>
+    <div id="btn2">
+        <button class="btnStyle" style="margin-left:60px">emoji</button>
+    </div>
+    <div id="btn3">
+        <button class="btnStyle" style="margin-left:110px">money</button>
+    </div>
+
+    <div id="gBody1">
+        <div id="gBody2">
+            <div id="gdiv1"><img src="images/su/37.png" id="gimg1"/></div>
+            <div id="gdiv2"><img src="images/su/38.png" id="gimg2"/></div>
+            <p id="gp1">于吃，中国人有太多的话要说。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;追溯到遥远的从前，我们就听说过「民以食为天」。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到现在，「舌尖上的中国」家喻户晓。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们寄托在美食上的不仅仅是味蕾的享受，<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时候更多的反而是味道带来的记忆。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而美食本身，也携带着最质朴最强大的治愈效果。</p>
+
+            <p id="gp2">不论是身处异乡孤独流浪的游子，<br/>还是被紧张急促生活节奏追赶的白领，<br/>亦或是因为恋情受挫内心苦痛的小女生，<br/>好像只需要一份热腾腾的美食，<br/>瞬间就带来了寒风冷雨中一股窝心的暖流。</p>
+            <p id="gp3">今天，我们就带你了解一下中华美食的四大菜系……</p>
+        </div>
+    </div>
+
+    <div id="sBody">
+        <div id="recommend">
+            <p id="tody">今日推荐</p>
+            <div id="todyf">
+                <ul id="rec-left">
+                    <li id="kind1">你想吃辣</li>
+                    <li id="kind2">香鲜田螺</li>
+                </ul>
+                    <div id="food1" class="food">
+                        <img src="images/food1.jpg" alt="请等待"/>
+                        <div class="fo-right">
+                            <p>
+                                <span class="fo-name">豉香麻辣牛油果熏鸭胸</span><br/>
+                                <span class="kinds">品类：家禽、凉菜、川菜、麻辣</span><br/><br/>
+                                <span class="kinds">人气：525</span><br/><br/>
+                                <span class="kinds">介绍：红绿相间，造型独特；荤素搭配，麻辣鲜香。</span><br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="food2" class="food">
+                        <img src="images/food2.jpg" alt="请等待"/>
+                        <div class="fo-right">
+                            <p>
+                                <span class="fo-name">紫苏酸菜田螺肉</span><br/>
+                                <span class="kinds">品类：河鲜、热菜、鲜辣、苏菜</span><br/><br/>
+                                <span class="kinds">人气：622</span><br/><br/>
+                                <span class="kinds">介绍：田螺肉味道鲜美，筋道有嚼劲，酸菜酸辣开胃，两者一起烹制，是下酒下饭的好拍档。</span><br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="food3" class="food">
+                        <img src="images/food3.jpg" alt="请等待"/>
+                        <div class="fo-right">
+                            <p>
+                                <span class="fo-name">滑炒里脊丝</span><br/>
+                                <span class="kinds">品类：鲁菜、热菜、家畜、咸鲜</span><br/><br/>
+                                <span class="kinds">人气：730</span><br/><br/>
+                                <span class="kinds">介绍：腌制好的猪里脊以低温滑炒，口感鲜嫩，弹性十足。</span><br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="food4" class="food">
+                        <img src="images/food4.jpg" alt="请等待"/>
+                        <div class="fo-right">
+                            <p>
+                                <span class="fo-name">青蟹伊面</span><br/>
+                                <span class="kinds">品类：海鲜、热菜、粤菜、咸鲜</span><br/><br/>
+                                <span class="kinds">人气：543</span><br/><br/>
+                                <span class="kinds">介绍：秘制酱料搭配青蟹和伊面，香辣浓郁有味道！</span><br/>
+                            </p>
+                        </div>
+                    </div>
+                <ul id="rec-right">
+                    <li id="kind3">鲁味小炒</li>
+                    <li id="kind4">海风滋味</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="lBody">
+            <div id = "ti">
+                <h1>美食与美景</h1>
+            </div>
+
+            <div id="ti1">
+
+                <div id="chuanchuan">
+                    <h1>川</h1>
+                    
+                </div>
+
+                <div id="chuanchuan1">
+                    <div id="chuanchuan11">
+                        <img src="images/jiu.jpg" alt="jiu" id="imgM1">
+                    </div>
+                    <div id="chuano">
+                    </div>
+                </div>
+
+                <div id="chuanchuan2">
+                    <div id="chuanchuan22">
+                        <img src="images/chi.png" alt="chi" id="imgM2">
+                    </div>
+                    <div id="chuant">
+                    </div>
+                </div>
+
+
+                <div id="yueyue2">
+                    <h1>粤</h1>
+                </div>
+
+                <div id="yueyue">
+                    <div id="yueyuey">
+                        <img src="images/boluo.jpg" alt="boluo" id="imgM3">
+                    </div>
+                    <div id="yueo"></div>
+                    
+                </div>
+
+                <div id="yueyue1">
+                    <div id="yueyue11">
+                        <img src="images/foshan.jpg" alt="foshan" id="imgM4">
+                    </div>
+                    <div id="yuet"></div>
+                </div>
+
+
+
+
+                <div id="susu">
+                    <h1>苏</h1>
+                </div>
+
+                <div id="susu1">
+                    <div id="susu11">
+                        <img src="images/suzhou.jpg" alt="suzhou" id="imgM5">
+                    </div>
+                    <div id="suo"></div>
+                    
+                </div>
+
+                <div id="susu2">
+                    <div id="susu22">
+                        <img src="images/song.jpg" alt="song" id="imgM6">
+                    </div>
+                    <div id="sut"></div>
+                    
+                </div>
+
+
+                <div id="lulu2">
+                    <h1>鲁</h1>
+                </div>
+
+                <div id="lulu">
+                    <div id="luluy">
+                        <img src="images/bao.jpg" alt="bao" id="imgM7">
+                    </div>
+                    <div id="luo"></div>
+                </div>
+
+                <div id="lulu1">
+                    <div id="lulu11">
+                        <img src="images/jinan.jpg" alt="jinan" id="imgM8">
+                    </div>
+                    <div id="lut"></div>
+                </div>
+
+                
+
+            </div>
+        
+        </div>
+        <div class="tbody">
+        <div class="tbody_one">        
+            <p><img src="images/bot7.jpg"/>美食直通车<img src="images/bot7.jpg"/></p>
+        </div>
+        <div class="tbody_two">
+            <div class="tbody01">
+                <h3>
+                    <a id="a_one" href="川菜.html">川菜</a>
+                </h3>
+                <div class="tbody02"><img src="images/bot5.jpg"/></div>
+                <ul class="tbody03">
+                    <li><a href="川菜.html"><p>原来除了辣，还有这些</p></a></li>
+                    <li><a href="川菜.html"><p>最新版十大经典川菜来袭！！！</p></a></li>
+                    <li><a href="川菜.html"><p>不可不说的川菜文化</p></a></li>
+                </ul>
+            </div>
+            <div class="tbody01">
+                <h3>
+                    <a id="a_one" href="粤菜.html">粤菜</a>
+                </h3>
+                <div class="tbody02"><img src="images/bot2.png"/></div>
+                <ul class="tbody03">
+                    <li><a href="粤菜.html">粤菜让你品尝食材的本味！！！</a></li>
+                    <li><a href="粤菜.html">粤菜之精品，令你百吃不厌</a></li>
+                    <li><a href="粤菜.html">粤菜历史知多少？</a></li>
+                </ul>
+            </div>
+            <div class="tbody01">
+                <h3>
+                    <a id="a_one" href="健康菜单.html">健康</a>
+                </h3>
+                <div class="tbody02"><img src="images/bot1.png"/></div>
+                <ul class="tbody03">
+                    <li><a href="健康菜单.html"><p>养肝排毒，食物来保护</p></a></li>
+                    <li><a href="健康菜单.html"><p>原来吃肉也可以减肥！</p></a></li>
+                    <li><a href="健康菜单.html"><p>常喝蜂蜜水的十大好处你还在等什么？</p></a></li>
+                </ul>
+            </div>
+            <div class="tbody01">
+                <h3>
+                    <a id="a_one" href="demo my.html">菜谱</a>
+                </h3>
+                <div class="tbody02"><img src="images/boy6.jpg"/></div>
+                <ul class="tbody03">
+                   <li><a href="demo my.html"><p>早餐不重样！</p></a></li>
+                    <li><a href="demo my.html"><p>一根胡萝卜可以做什么？</p></a></li>
+                    <li><a href="demo my.html"><p>三道工序轻松做人气美食</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    </div>       
+    <div id="di">
+        <div id="didi">
+            首页&nbsp;&nbsp; | &nbsp;&nbsp;美食代理&nbsp;&nbsp; | &nbsp;&nbsp;
+            财务代记账&nbsp;&nbsp; | &nbsp;&nbsp;股权交易与变更&nbsp;&nbsp; |
+            &nbsp;&nbsp;餐厅贷款&nbsp;&nbsp; | &nbsp;&nbsp;中小餐厅租赁&nbsp;&nbsp;
+            | &nbsp;&nbsp;餐厅管理代理&nbsp;&nbsp; | &nbsp;&nbsp;法律服务   <br>
+            © 2019-2020 舌尖上的菜系 版权所有
+        </div>
+    </div>
+
+    <div id="rightright">
+    	<ul>
+    		<li><a href="#"><img src="images/QQ.png" id="img11"/></a></li>
+    		<li><a href="#"><img src="images/ZX.png" id="img22"></a></li>
+    		<li><a href="#"><img src="images/WX.png" id="img33"/></a></li>
+    		<li><a href="#"><img src="images/LX.png" id="img44" /></a></li>
+    		<li><a href="#"><img src="images/YY.png" id="img55" /></a></li>
+    	</ul>
+    </div>
+    
+    
+
+</body>
+<script src="js/foods/top.js">
+</script>
+<script src="js/snow.js">
+</script>
+<script src="js/emoji.js">
+</script>
+<script src="js/money.js">
+</script>
+<script src="js/returnTop.js">
+</script>
+<script src="js/su/animate.js">
+</script>
+<script src="js/bottom.js">
+</script>
+<script src="js/recommend.js">
+</script>
+<script src="js/li.js">
+</script>
+<script>
+   
+
+    var gimg1 = document.getElementById("gimg1");
+    window.onload = function(){
+        setTimeout(function(){
+            animate(gimg1,{marginTop:0},console.log("OK"));
+        },2000);
+    }
+</script>
+</html>
